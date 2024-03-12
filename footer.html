@@ -1,0 +1,181 @@
+
+<div class="form-container">
+  <div class="form-block">
+    <h2 class="header__form-title">
+      хотите <span>индивидуальный</span>
+      <br />
+      подбор тура?
+    </h2>
+    <form
+      method="POST"
+      id="form-footer"
+      class="form-content"
+    >
+      <input
+        type="text"
+        name="name"
+        class="form-input"
+        placeholder="Имя"
+        required
+      />
+      <input
+        type="text"
+        name="tel"
+        class="form-input"
+        placeholder="Телефон"
+        pattern="[0-9\+]*"
+        minlength="8"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        class="form-input"
+        placeholder="Электронная почта"
+        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+        required
+      />
+      <textarea
+        name="message"
+        id="message"
+        class="form-textarea"
+        placeholder="Комментарий"
+        required
+      ></textarea>
+      <div class="form-submit">
+        <button type="submit" aria-label="отправить" class="form-btn">
+          Отправить
+        </button>
+        <p class="form-privacy-paragraph">
+          Отправляя сообщение вы соглашаетесь на&nbsp;
+          <a href="/privacy" class="form-privacy-link" target="_blank">
+            обработку персональных данных
+          </a>
+        </p>
+      </div>
+    </form>
+  </div>
+  <span class="form-background"></div>
+</div>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-nav">
+      <span class="footer-social">
+        <ul class="social-list">
+          <li>
+            <a href="https://t.me/+79088739738" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://wa.me/+79088739738" target="_blank"></a>
+          </li>
+          <li>
+            <a href="https://vk.com/mobis_t" target="_blank"></a>
+          </li>
+          <li>
+            <a
+              href="https://invite.viber.com/?g2=AQBDqAwubRTMvkp3UpXWxcs1C01ttaNmLxjZvJYz7ptzGbGclGdWtNaxawha1jpM"
+              target="_blank"
+            ></a>
+          </li>
+        </ul>
+        <span>
+          <a class="logo" href="/"></a>
+        </span>
+      </span>
+      <nav class="footer-menu">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a href="/#tour-search">Поиск тура</a>
+          </li>
+          <li class="footer-item">
+            <a href="/#services">Услуги</a>
+          </li>
+          <li class="footer-item">
+            <a href="/important">Туристам</a>
+          </li>
+          <li class="footer-item">
+            <a href="/countries">Страны</a>
+          </li>
+          <li class="footer-item">
+            <a href="/about">О компании</a>
+          </li>
+          <li class="footer-item">
+            <a href="/contacts">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <span class="footer-address">
+      <span class="footer-contact">
+        <address>
+          Тюмень, ул Республики 155 а,
+          <br />
+          оф. 31
+        </address>
+        <span>
+          <a href="tel:+73452348510">+7 (3452) 34-85-10</a>
+        </span>
+      </span>
+      <span class="footer-contact">
+        <address>
+          Израиль, Тель-Авив, ул А-Барзель
+          <br />
+          11, 5 этаж
+        </address>
+        <span>
+          <a href="tel:+79091875853">+7 (909) 187-58-53</a>
+        </span>
+      </span>
+    </span>
+  </div>
+  <span class="footer-privacy">
+    <a href="/privacy" target="_blank">Положение об обработке персональных данных</a>
+    Информация на сайте не является публичной офертой и носит
+    исключительно информационный характер.
+    <br />
+    ИНН 7202260685 ОГРН 1147232021166
+  </span>
+  <a href="https://nice-dev.ru/" class="nice-dev" target="_blank">
+    © Nice Dev Web-Studio 2020 -
+    <script>
+      document.write(new Date().getFullYear());
+    </script>
+  </a>
+</footer>
+<div class="popup popup-form">
+  <div class="popup-content-form">
+    <div class="popup-form-block">
+      <button
+        aria-label="закрыть"
+        type="button"
+        class="popup__button-close"
+      ></button>
+      <h2 class="header__form-title">
+        Подбор<span> горящего</span>
+        <br />
+        тура
+      </h2>
+    </div>
+  </div>
+</div>
+<div class="popup popup-block">
+  <div class="popup-content">
+    <button
+      aria-label="закрыть"
+      type="button"
+      class="popup__button-close"
+    ></button>
+    <h2 class="popup__title">Спасибо за ваш запрос!</h2>
+    <p class="popup__paragraph">
+      Пока наши менеджеры подбирают для вас наилучшие варианты отдыха, вы можете
+      ознакомиться с акционными турами, представленными на нашем сайте
+    </p>
+    <a href="/hot-tours" class="popup__link"> Перейти </a>
+  </div>
+</div>
+
+<script src="./scripts/script.js"></script>
+<script src="./scripts/send-form.js"></script>
+<!-- <script src="./scripts/modal-image.js"></script> -->
+</body>
+</html>
