@@ -218,19 +218,6 @@ button:focus-visible {
     color: #d2ab67;
   }
 
-  .mobile-navigation-item:first-child .mobile-navigation-link::after,
-  .mobile-navigation-item:nth-child(2) .mobile-navigation-link::after,
-  .mobile-navigation-item:nth-child(3) .mobile-navigation-link::after {
-    content: "";
-    background: url(../images/polygon.svg) no-repeat;
-    display: block;
-    width: 24px;
-    height: 20px;
-    transform: rotate(-90deg);
-    margin-left: 10px;
-    transition: 0.3s;
-  }
-
   .mobile-navigation-item:hover .mobile-navigation-link-list {
     opacity: 1;
     visibility: visible;
@@ -263,6 +250,34 @@ button:focus-visible {
   .mobile-navigation-link-list>li>a {
     display: block;
     padding: 10px;
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 1024px) {
+
+  .mobile-navigation-item:first-child .mobile-navigation-link::after,
+  .mobile-navigation-item:nth-child(2) .mobile-navigation-link::after,
+  .mobile-navigation-item:nth-child(3) .mobile-navigation-link::after {
+    content: "";
+    background: url(../images/polygon.svg) no-repeat;
+    display: block;
+    width: 24px;
+    height: 20px;
+    transform: rotate(-90deg);
+    margin-left: 10px;
+    transition: 0.3s;
+  }
+}
+
+@media(max-width: 500px) {
+
+  .mobile-navigation-item:first-child .mobile-navigation-link::after,
+  .mobile-navigation-item:nth-child(2) .mobile-navigation-link::after,
+  .mobile-navigation-item:nth-child(3) .mobile-navigation-link::after {
+    background-size: 15px;
+    width: 15px;
+    height: 15px;
   }
 }
 
@@ -272,10 +287,10 @@ button:focus-visible {
   }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 500px) {
   .mobile-navigation-link {
-    padding: 10px;
-    font-size: 14px;
+    padding: 10px 15px;
+    font-size: 12px;
   }
 
   .mobile-navigation-link-list {
@@ -558,6 +573,8 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
   padding: 0 30px;
   width: 100%;
   height: 100%;
@@ -901,9 +918,10 @@ button:focus-visible {
 .staff-item-block {
   display: flex !important;
   gap: 10px;
-  margin: 10px 0 25px;
+  margin: 10px 0 30px;
   padding: 30px;
   box-shadow: 0px 8px 20px 0px #464648;
+  height: 340px;
 }
 
 @media (max-width: 475px) {
@@ -918,6 +936,7 @@ button:focus-visible {
 
 .staff-callback img {
   max-width: 150px;
+  height: 210px;
 }
 
 @media(max-width: 475px) {
@@ -1001,7 +1020,7 @@ button:focus-visible {
 /* benefits */
 
 .benefits {
-  margin-top: 100px;
+  margin-top: 95px;
   display: flex;
   flex-direction: column;
   align-items: center;
