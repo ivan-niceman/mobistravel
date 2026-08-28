@@ -1,0 +1,129 @@
+<div
+  id="cookie-banner"
+  class="cookie-banner"
+  style="display: none"
+  role="dialog"
+  aria-modal="false"
+  aria-live="polite"
+  aria-labelledby="cookie-banner-title"
+>
+  <div class="cookie-banner__card">
+    <div class="cookie-banner__header">
+      <div class="cookie-banner__title-row">
+        <svg
+          class="cookie-banner__icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5" />
+          <path d="M8.5 8.5v.01" />
+          <path d="M16 15.5v.01" />
+          <path d="M12 12v.01" />
+          <path d="M11 17v.01" />
+          <path d="M7 14v.01" />
+        </svg>
+
+        <h3 id="cookie-banner-title" class="cookie-banner__title">
+          Файлы Cookie
+        </h3>
+      </div>
+    </div>
+
+    <p class="cookie-banner__text">
+      Мы используем cookie для работы сайта и аналитики согласно
+      <a
+        href="/privacy"
+        class="cookie-banner__link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        политике конфиденциальности.</a
+      >
+    </p>
+
+    <!-- Панель настроек -->
+    <div
+      id="cookie-settings-panel"
+      class="cookie-settings"
+      style="display: none"
+    >
+      <!-- Технические -->
+      <div class="cookie-option">
+        <label class="cookie-option__label">
+          <input
+            type="checkbox"
+            checked
+            disabled
+            class="cookie-option__input"
+            aria-label="Обязательные технические cookie"
+          />
+          <span class="cookie-option__info">
+            <strong>Обязательные (Технические)</strong>
+            <small>Необходимы для работы сайта, форм и безопасности</small>
+          </span>
+        </label>
+      </div>
+
+      <!-- Аналитические -->
+      <div class="cookie-option">
+        <label class="cookie-option__label">
+          <input
+            type="checkbox"
+            id="cookie-analytics-check"
+            class="cookie-option__input"
+          />
+          <span class="cookie-option__info">
+            <strong>Аналитические</strong>
+            <small>Для анализа посещаемости и удобства сайта</small>
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="cookie-banner__actions">
+      <div class="cookie-banner__buttons-group">
+        <button
+          type="button"
+          class="cookie-btn cookie-btn--accept"
+          id="cookie-accept-all"
+        >
+          Принять все
+        </button>
+
+        <button
+          type="button"
+          class="cookie-btn cookie-btn--reject"
+          id="cookie-reject-all"
+        >
+          Отклонить
+        </button>
+
+        <button
+          type="button"
+          class="cookie-btn cookie-btn--save"
+          id="cookie-save-settings"
+          style="display: none"
+        >
+          Сохранить
+        </button>
+      </div>
+
+      <button
+        type="button"
+        class="cookie-banner__settings-toggle"
+        id="cookie-toggle-settings"
+        aria-expanded="false"
+      >
+        Настройки
+      </button>
+    </div>
+  </div>
+</div>

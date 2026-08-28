@@ -107,10 +107,10 @@
           <br />
           <br />
           Наша компания, является надежным гарантом Вашего хорошего отдыха.
-          Работая на рынке более 10 лет, Mobis Travel зарекомендовал себя как
+          Работая на рынке более 17 лет, Мобис-Т зарекомендовал себя как
           серьезный и положительный партнер с отличной репутацией среди наших
           клиентов и тур операторов. Компания Мобис-Т, работает под торговой
-          маркой Дом Туризма «Mobis Travel».
+          маркой Дом Туризма «Мобис-Т».
         </p>
         <a href="/contacts" class="about__button">
           Подробнее
@@ -191,7 +191,7 @@
           </span>
         </div>
       </div>
-      <div class="staff-item">
+      <!-- <div class="staff-item">
         <div class="staff-item-block">
           <span class="staff-callback">
             <img src="./images/staff/staff-7.webp" alt="сотрудник 7" />
@@ -212,7 +212,7 @@
             <img src="./images/zigzag.svg" alt="иконка" />
           </span>
         </div>
-      </div>
+      </div> -->
       <div class="staff-item">
         <div class="staff-item-block">
           <span class="staff-callback">

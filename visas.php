@@ -23,23 +23,33 @@
     <h2 class="visas-documents-subtitles">Документы:</h2>
     <ul class="visas-documents-list">
       <li class="visas-documents-item">
-        <a href="https://mobistravel.ru/files/Opic_na_vizu.pdf" target="_blank">
-          Опись документов на визу
-        </a>
-      </li>
-      <li class="visas-documents-item">
-        <a href="https://mobistravel.ru/files/Zayavlenie_na_otkritie_vizi.pdf" target="_blank">
-          Заявление на открытие визы
-        </a>
-      </li>
-      <li class="visas-documents-item">
-        <a href="https://mobistravel.ru/files/Sponsorskoe_picmo.pdf" target="_blank">
+        <a href="https://mobistravel.ru/files/Sponsorship-letter.docx" target="_blank">
           Спонсорское письмо
         </a>
       </li>
+      <!-- <li class="visas-documents-item">
+        <a href="https://mobistravel.ru/files/Company-registration-card.docx" target="_blank">
+          Учетная карточка предприятия
+        </a>
+      </li> -->
       <li class="visas-documents-item">
-        <a href="https://mobistravel.ru/files/Spravka_o_ZP.pdf" target="_blank">
-          Справка о зарплате
+        <a href="https://mobistravel.ru/files/Application-for-a-Schengen-visa.docx" target="_blank">
+          Заявление на открытие шенгенской визы
+        </a>
+      </li>
+      <li class="visas-documents-item">
+        <a href="https://mobistravel.ru/files/List-of-documents-for-a-visa.docx" target="_blank">
+          Опись документов на визу
+        </a>
+      </li>
+      <!-- <li class="visas-documents-item">
+        <a href="https://mobistravel.ru/files/Sample-contract-with-a-tourist.pdf" target="_blank">
+          Пример договора с туристом
+        </a>
+      </li> -->
+      <li class="visas-documents-item">
+        <a href="https://mobistravel.ru/files/Sample-employment-reference-letter.docx" target="_blank">
+          Пример справки с места работы
         </a>
       </li>
     </ul>

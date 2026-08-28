@@ -3632,8 +3632,39 @@
         Пример договора
       </h2>
       <div class="accordion-content">
-        <a class="accordion-link" href="./files/example-contract.pdf" target="_blank">
+        <a class="accordion-link" href="./files/Sample-contract-with-a-tourist.pdf" target="_blank">
           Пример договора
+        </a>
+      </div>
+    </li>
+    <li class="important-item">
+      <h2 class="important-subtitle">
+        Санитарные нормы
+      </h2>
+      <div class="accordion-content">
+        <a class="accordion-link" href="./files/health-standards/standard-1.docx" target="_blank">
+          Общие требования к личной безопасности туристов
+        </a>
+        <a class="accordion-link" href="./files/health-standards/standard-2.pdf" target="_blank">
+          Памятка туристу о профилактике желтой лихорадке
+        </a>
+        <a class="accordion-link" href="./files/health-standards/standard-3.pdf" target="_blank">
+          Памятка туристу профилактики клещевого боррелиоза
+        </a>
+        <a class="accordion-link" href="./files/health-standards/standard-4.pdf" target="_blank">
+          Профилактика инфекции, вызванной вирусами Коксаки
+        </a>
+        <a class="accordion-link" href="./files/health-standards/standard-5.docx" target="_blank">
+          Профилактика инфекционных заболеваний оспой обезъян
+        </a>
+        <a class="accordion-link" href="./files/health-standards/standard-6.pdf" target="_blank">
+          Профилактика природно очаговых болезней
+        </a>
+        <a class="accordion-link" href="./files/health-standards/standard-7.pdf" target="_blank">
+          Профилактика сибирской язвы
+        </a>
+        <a class="accordion-link" href="./files/health-standards/standard-8.pdf" target="_blank">
+          Профилактика укусов комаров
         </a>
       </div>
     </li>

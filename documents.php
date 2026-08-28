@@ -4,7 +4,7 @@
   <h1 class="documents-title">ДОКУМЕНТЫ КОМПАНИИ</h1>
   <ul class="documents-list">
     <li class="documents-item" data-modal-target="modal1">
-      <img src="./images/documents/Mobis_Travel_card.webp" alt="документ" />
+      <img src="./images/documents/Mobis_Travel_card _12_12.webp" alt="документ" />
     </li>
     <li class="documents-item" data-modal-target="modal2">
       <img src="./images/documents/inn.webp" alt="документ" />
